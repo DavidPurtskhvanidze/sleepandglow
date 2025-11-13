@@ -1500,7 +1500,7 @@ header.scroll-down {
 .header-menu__item_name::after {
     content: "";
     position: relative;
-    background-image: url(../img/menu-arrow.svg);
+    background-image: url(../common_files/menu-arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: contain;
@@ -20519,7 +20519,7 @@ button.btn.btn-sm {
     .menu-container > div > span::after {
         content: "";
         position: relative;
-        background-image: url(../img/menu-arrow.svg);
+        background-image: url(../common_files/menu-arrow.svg);
         background-repeat: no-repeat;
         background-position: center;
         -webkit-background-size: contain;
