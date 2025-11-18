@@ -1,0 +1,1116 @@
+header {
+    display: none;
+}
+
+
+/*common*/
+main {
+    background-color: #FCF9F9;
+}
+.br-mobile {
+    display: none;
+}
+.br-desktop {
+    display: inline-block;
+}
+.bold-mobile {
+    font-weight: 300;
+}
+.bold-desktop {
+    font-weight: 500;
+}
+/*common*/
+
+/*towel-silk-main*/
+.towel-silk-main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Cera Pro', sans-serif;
+    z-index: 2;
+    background-color: #fff;
+}
+.towel-silk-main-section picture {
+    display: flex;
+    width: 100%;
+}
+.towel-silk-main-section picture img {
+    width: 100%;
+}
+.towel-silk-main-text {
+    position: absolute;
+    bottom: clamp(35px, calc(62/1920*100vw), 62px);
+    max-width: 90%;
+}
+.towel-silk-main-text h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: clamp(24px, calc(48/1920*100vw), 48px);
+    line-height: clamp(34px, calc(60/1920*100vw), 60px);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: clamp(10px, calc(16/1920*100vw), 16px);
+    position: relative;
+    z-index: 1;
+}
+.towel-silk-main-text p {
+    color: #fff;
+    font-weight: 500;
+    font-size: clamp(14px, calc(18/1920*100vw), 18px);
+    line-height: clamp(20px, calc(28/1920*100vw), 28px);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+/*towel-silk-main*/
+
+/*towel-silk-care*/
+body section.towel-silk-care {
+    margin: 0;
+    padding-top: clamp(32px, calc(96/1920*100vw), 96px);
+    /*padding: clamp(24px, calc(64/1920*100vw), 64px) 0;*/
+    background-color: #fff;
+}
+.towel-silk-care h3 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32/1920*100vw), 32px);
+    line-height: clamp(28px, calc(48/1920*100vw), 48px);
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 0;
+}
+.towel-silk-care-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.towel-silk-care-wrapper:before {
+    content: '';
+    height: 87%;
+    width: 1px;
+    background-color: #8F7E61;
+    position: absolute;
+    top: 2.4vw;
+    bottom: 0;
+    right: 51.9%;
+    z-index: 1;
+}
+.towel-silk-care-1-pic {
+    position: relative;
+}
+.towel-silk-care-1-pic picture {
+    display: flex;
+    width: 86%;
+}
+.towel-silk-care-1-pic .icon {
+    position: absolute;
+    right: 8%;
+    top: 4vw;
+    width: clamp(30px, calc(40 / 1920 * 100vw), 40px);
+    height: clamp(30px, calc(40 / 1920 * 100vw), 40px);
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='19.051' stroke='%238F857F' stroke-width='1.89796'/%3E%3Crect x='28.3783' y='11.0595' width='1' height='24.3101' transform='rotate(45 28.3783 11.0595)' fill='%238F857F' stroke='%238F857F' stroke-width='0.632653'/%3E%3Crect x='28.9565' y='28.2494' width='1' height='24.3101' transform='rotate(135 28.9565 28.2494)' fill='%238F857F' stroke='%238F857F' stroke-width='0.632653'/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.towel-silk-care-1-info {
+    position: absolute;
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    text-align: right;
+    color: #91775D;
+    top: 7vw;
+    width: 20%;
+    left: 26%;
+}
+.towel-silk-care-2-pic {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.towel-silk-care-2-pic picture {
+    display: flex;
+    width: 85%;
+}
+.towel-silk-care-2-pic .icon {
+    position: absolute;
+    left: 0;
+    top: 4vw;
+    width: clamp(30px, calc(40 / 1920 * 100vw), 40px);
+    height: clamp(30px, calc(40 / 1920 * 100vw), 40px);
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='19.051' stroke='%23B8A284' stroke-width='1.89796'/%3E%3Crect x='32.5895' y='19.2373' width='1.63265' height='24.9427' transform='rotate(90 32.5895 19.2373)' fill='%23B8A284'/%3E%3Crect x='20.8433' y='32.4338' width='1.63265' height='24.9427' transform='rotate(180 20.8433 32.4338)' fill='%23B8A284'/%3E%3C/svg%3E%0A");    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.towel-silk-care-2-info {
+    position: absolute;
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    text-align: left;
+    color: #91775D;
+    top: 7vw;
+    width: 20%;
+    right: 30%;
+}
+/*towel-silk-care*/
+
+/*towel-cooper-fiber*/
+section.towel-cooper-fiber-section {
+    padding-top: clamp(25px, calc(96 / 1920 * 100vw), 96px);
+    background-color: #fffafc;
+    margin-top: 0;
+    margin-bottom: 96px;
+}
+.towel-cooper-fiber-section > h3 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32/1920*100vw), 32px);
+    line-height: clamp(28px, calc(48/1920*100vw), 48px);
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: clamp(37px, calc(70 / 1920 * 100vw), 70px);
+    margin-bottom: 0;
+}
+.towel-cooper-fiber-wrapper {
+    position: relative;
+}
+.towel-cooper-fiber {
+    position: relative;
+    z-index: 1;
+}
+.towel-cooper-fiber-info {
+    position: absolute;
+    z-index: 1;
+    top: 8vw;
+    left: 12.3vw;
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+.towel-cooper-fiber-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.towel-cooper-fiber-info-text h4 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32 / 1920 * 100vw), 32px);
+    line-height:clamp(28px, calc(48 / 1920 * 100vw), 48px);
+    text-transform: uppercase;
+    background: linear-gradient(267.09deg, #9E866C 12.34%, #B8A284 17.61%, #AD9378 28.15%, #DDCEBA 33.23%, #AB8F76 37.33%, #735B42 62.01%, #A58B6E 68.03%, #B79A7A 80.83%, #8F7E61 87.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-fiber-info-text p {
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    color: #91775D;
+}
+.towel-cooper-fiber-bg {
+
+
+}
+.towel-cooper-fiber-video {
+    position: absolute;
+    top: 2vw;
+    right: 3.6vw;
+    overflow: hidden;
+    width: 52vw;
+    height: 52vw;
+    border-radius: 100%;
+    border: 4px solid #DAC5A5;
+}
+.towel-cooper-fiber-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*towel-cooper-fiber*/
+
+/*towel-cooper-benefits-info*/
+.towel-cooper-benefits-info {
+    padding: clamp(30px, calc(82 / 1920 * 100vw), 82px) 0 clamp(54px, calc(82 / 1920 * 100vw), 82px);
+    background-color: #fdf9fb;
+}
+.towel-cooper-benefits-info ul {
+    list-style: none;
+    padding: 0 7.6vw 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: clamp(22px, calc(32 / 1920 * 100vw), 32px);
+    justify-content: space-between;
+}
+.towel-cooper-benefits-info li {
+    display: flex;
+    align-items: start;
+    gap: clamp(10px, calc(20 / 1920 * 100vw), 20px);
+    position: relative;
+}
+.towel-cooper-benefits-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.towel-cooper-benefits-item h4 {
+    font-weight: 500;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    text-transform: uppercase;
+    background: linear-gradient(270.56deg, #9E866C 79.14%, #B8A284 80.53%, #AD9378 83.3%, #DDCEBA 84.64%, #AB8F76 85.72%, #AE8A65 92.22%, #A58B6E 93.8%, #B79A7A 97.17%, #8F7E61 98.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-benefits-item p {
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    color: #90775D;
+}
+/*towel-cooper-benefits-info*/
+
+/*towel-cooper-anti-section*/
+body section.towel-cooper-anti-section {
+    margin-top: clamp(47px, calc(58/1920*100vw), 58px);
+    padding: 0 clamp(8px, calc(20/1920*100vw), 20px) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #fffafc;
+}
+.towel-cooper-anti-section h3 {
+    font-weight: 300;
+    font-size: clamp(18px, calc(32/1920*100vw), 32px);
+    line-height: clamp(28px, calc(48/1920*100vw), 48px);
+    text-transform: uppercase;
+    margin-bottom: clamp(14px, calc(32/1920*100vw), 32px);
+    text-align: center;
+    background: linear-gradient(267.09deg, #9E866C 12.34%, #B8A284 17.61%, #AD9378 28.15%, #DDCEBA 33.23%, #AB8F76 37.33%, #735B42 62.01%, #A58B6E 68.03%, #B79A7A 80.83%, #8F7E61 87.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-anti-section h3 b {
+    font-weight: 500;
+}
+.towel-cooper-anti-percent-item-mob {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #90775D;
+}
+.towel-cooper-anti-wrapper {
+    position: relative;
+    max-width: 57vw;
+    margin: auto;
+    width: 100%;
+}
+.towel-cooper-anti-wrapper h4 {
+    font-weight: 300;
+    font-size: clamp(14px, calc(18/1920*100vw), 18px);
+    line-height: clamp(20px, calc(28/1920*100vw), 28px);
+    text-align: center;
+    color: #90775D;
+    margin-bottom: clamp(24px, calc(32/1920*100vw), 32px);
+}
+.towel-cooper-anti-text-mobile {
+    display: none;
+}
+.towel-cooper-anti-text b {
+    font-weight: 500;
+}
+.towel-cooper-anti-percent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.towel-cooper-anti-percent-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: clamp(0px, calc(7 / 1920 * 100vw), 7px) 0;
+}
+.towel-cooper-anti-percent-item:first-child:after {
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: #F2DEBA;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.towel-cooper-anti-percent-item a {
+    align-self: end;
+    padding-right: 6vw;
+}
+.towel-cooper-anti-percent-item a:hover {
+    opacity: 0.8;
+}
+.towel-cooper-anti-percent-item-desk {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    gap: 5px;
+    padding-left: 2vw;
+}
+.towel-cooper-anti-percent-count {
+    font-weight: 300;
+    font-size: clamp(64px, calc(100 / 1920 * 100vw), 100px);
+    line-height: 1;
+    letter-spacing: -0.05em;
+    display: flex;
+    align-items: center;
+    gap: 0.1em;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-anti-percent-count i {
+    font-weight: 500;
+    font-size: clamp(25px, calc(48 / 1920 * 100vw), 48px);
+    line-height: 1;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.towel-cooper-anti-percent-text {
+    font-weight: 500;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: 1.5;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-anti-percent-item_link a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 68%;
+    text-decoration: none;
+    outline: 0 !important;
+    color: inherit;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+    will-change: opacity;
+}
+.towel-cooper-anti-percent-item_link a:hover {
+    opacity: 0.8;
+}
+.towel-cooper-anti-percent-item_link-text-mob {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.towel-cooper-anti-percent-item_link-text-mob a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    position: relative;
+}
+.towel-cooper-anti-percent-item_link-text-mob a:hover {
+    opacity: 0.8;
+}
+.towel-cooper-anti-percent-item_link-text-mob svg {
+    position: absolute;
+    bottom: 7px;
+    right: -31px;
+}
+.towel-cooper-anti-percent-item_link-text {
+    font-weight: 400;
+    font-size: clamp(7px, calc(18 / 1920 * 100vw), 18px);
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: clamp(90px, calc(110 / 1920 * 100vw), 110px);
+    height: clamp(90px, calc(110 / 1920 * 100vw), 110px);
+    border-radius: 50%;
+    border: 1px solid #9E866C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-cooper-anti-percent-item_link-text svg {
+    position: absolute;
+    bottom: 0.5em;
+    right: -2.7em;
+    width: clamp(44px, calc(56 / 1920 * 100vw), 56px);
+}
+/*towel-cooper-anti-section*/
+
+/*towel-hydration-section*/
+body section.towel-hydration-section {
+    padding-top: 0;
+}
+.towel-hydration-fiber-wrapper {
+    position: relative;
+}
+.towel-hydration-fiber {
+    position: relative;
+    z-index: 1;
+}
+.towel-hydration-fiber picture {
+    display: flex;
+}
+.towel-hydration-fiber-info {
+    position: absolute;
+    z-index: 1;
+    top: 4vw;
+    right: 13.3vw;
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+.towel-hydration-fiber-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.towel-hydration-fiber-info-text h4 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32 / 1920 * 100vw), 32px);
+    line-height:clamp(28px, calc(48 / 1920 * 100vw), 48px);
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #DCC2EC -28.87%, #93819E 47.91%, #DCC3ED 98.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-hydration-fiber-info-text p {
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    color: #AB84C1;
+}
+.towel-hydration-fiber-video {
+    position: absolute;
+    top: 2vw;
+    left: 3.6vw;
+    overflow: hidden;
+    width: 52vw;
+    height: 52vw;
+    border-radius: 100%;
+    border: 4px solid #866C96;
+    transform: rotate(45deg);
+}
+.towel-hydration-fiber-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*towel-hydration-section*/
+
+/*towel-hydration-benefits-info*/
+.towel-hydration-benefits-info {
+    padding: clamp(54px, calc(82 / 1920 * 100vw), 82px) 0;
+    background-color: #f8f7fc;
+}
+.towel-hydration-benefits-info ul {
+    list-style: none;
+    padding: 0 7.6vw 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: clamp(22px, calc(32 / 1920 * 100vw), 32px);
+    justify-content: space-between;
+}
+.towel-hydration-benefits-info li {
+    display: flex;
+    align-items: start;
+    gap: clamp(10px, calc(20 / 1920 * 100vw), 20px);
+    position: relative;
+}
+.towel-hydration-benefits-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.towel-hydration-benefits-item h4 {
+    font-weight: 500;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #DCC2EC -28.87%, #93819E 47.91%, #DCC3ED 98.11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.towel-hydration-benefits-item p {
+    font-weight: 300;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    color: #AB84C1;
+}
+/*towel-cooper-benefits-info*/
+
+/*towel-choose*/
+body section.towel-choose-section {
+    --table-row-title-width: 410px;
+    margin-top: 0;
+    padding: 0 10px;
+}
+.towel-choose-section h3 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32/1920*100vw), 32px);
+    line-height: clamp(28px, calc(48/1920*100vw), 48px);
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: clamp(37px, calc(70 / 1920 * 100vw), 70px);
+    margin-bottom: clamp(24px, calc(32 / 1920 * 100vw), 32px);
+}
+.towel-choose-table {
+
+}
+.table-row-title {
+    width: var(--table-row-title-width);
+}
+.table-row-title {
+
+}
+.table-header {
+    border: 1px solid #90775D;
+    border-bottom: 0;
+}
+.table-header .table-row {
+    display: flex;
+}
+.table-header .table-row .table-row-value {
+    display: flex;
+    width: 100%;
+}
+.table-header .table-row .table-row-value .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table-header .table-row .table-row-value .item picture {
+    display: flex;
+    width: 100%;
+}
+.table-header .table-row .table-row-value .item h4 {
+    font-weight: 500;
+    font-size: clamp(14px, calc(32 / 1920 * 100vw), 32px);
+    line-height: clamp(20px, calc(48 / 1920 * 100vw), 48px);
+    background: linear-gradient(267.09deg, #9E866C 12.34%, #B8A284 17.61%, #AD9378 28.15%, #DDCEBA 33.23%, #AB8F76 37.33%, #735B42 62.01%, #A58B6E 68.03%, #B79A7A 80.83%, #8F7E61 87.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.table-body {
+    border: 1px solid #90775D;
+    border-bottom: 0;
+}
+.table-body .plus-icon {
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='url(%23paint0_linear_4687_11777)'/%3E%3Cpath d='M21 16.5H17V20.5H15V16.5H11V14.5H15V10.5869H17V14.5H21V16.5Z' fill='url(%23paint1_linear_4687_11777)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_4687_11777' x1='29.76' y1='37.6' x2='4.51925' y2='38.8828' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%239E866C'/%3E%3Cstop offset='0.07' stop-color='%23B8A284'/%3E%3Cstop offset='0.21' stop-color='%23AD9378'/%3E%3Cstop offset='0.277551' stop-color='%23DDCEBA'/%3E%3Cstop offset='0.332061' stop-color='%23AB8F76'/%3E%3Cstop offset='0.66' stop-color='%23735B42'/%3E%3Cstop offset='0.74' stop-color='%23A58B6E'/%3E%3Cstop offset='0.91' stop-color='%23B79A7A'/%3E%3Cstop offset='1' stop-color='%238F7E61'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear_4687_11777' x1='20.3' y1='22.2348' x2='12.4126' y2='22.6392' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%239E866C'/%3E%3Cstop offset='0.07' stop-color='%23B8A284'/%3E%3Cstop offset='0.21' stop-color='%23AD9378'/%3E%3Cstop offset='0.277551' stop-color='%23DDCEBA'/%3E%3Cstop offset='0.332061' stop-color='%23AB8F76'/%3E%3Cstop offset='0.66' stop-color='%23735B42'/%3E%3Cstop offset='0.74' stop-color='%23A58B6E'/%3E%3Cstop offset='0.91' stop-color='%23B79A7A'/%3E%3Cstop offset='1' stop-color='%238F7E61'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: clamp(24px, calc(32 / 1920 * 100vw), 32px);
+    height: clamp(24px, calc(32 / 1920 * 100vw), 32px);
+}
+.table-body .table-row-title {
+    font-weight: 500;
+    font-size: clamp(14px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(20px, calc(28 / 1920 * 100vw), 28px);
+    text-transform: uppercase;
+    color: #8F7E61;
+}
+.table-body .table-row {
+    display: flex;
+    width: 100%;
+    padding: 14px 0;
+    border-bottom: 1px solid #90775D;
+}
+
+.table-body .table-row .table-row-title {
+    padding-left: clamp(24px, calc(64 / 1920 * 100vw), 64px);
+}
+.table-body .table-row .table-row-value {
+    display: flex;
+    width: 100%;
+}
+.table-body .table-row .table-row-value .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-footer {
+    margin-top: 28px;
+}
+.table-footer .table-row {
+    display: flex;
+    width: 100%;
+    padding: 16px 0;
+}
+.table-footer .table-row-value {
+    display: flex;
+    width: 100%;
+}
+.table-footer .table-row-value .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-footer .button {
+    padding: 0 clamp(18px, calc(32 / 1920 * 100vw), 32px);
+    height: clamp(26px, calc(44 / 1920 * 100vw), 44px);
+    font-weight: 500;
+    font-size: clamp(10px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(16px, calc(28 / 1920 * 100vw), 28px);
+}
+.table-footer .button svg {
+    width: clamp(14px, calc(24 / 1920 * 100vw), 24px);
+    height: clamp(14px, calc(24 / 1920 * 100vw), 24px);
+    margin-left: 8px;
+}
+.table-footer .button:before {
+    background: linear-gradient(180deg, #FFFAF2 -44.24%, #F1DDB7 100%), linear-gradient(45.79deg, #FDD1DB 6.18%, #AABBE7 98.93%);
+}
+/*towel-choose*/
+
+/*towel-luxury*/
+body section.towel-luxury-section {
+    margin: 0;
+}
+.towel-luxury-section h3 {
+    font-weight: 500;
+    font-size: clamp(18px, calc(32/1920*100vw), 32px);
+    line-height: clamp(28px, calc(48/1920*100vw), 48px);
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(273.22deg, #9E866C 22.37%, #B8A284 25.3%, #AD9378 31.16%, #DDCEBA 33.99%, #AB8F76 36.27%, #735B42 49.99%, #A58B6E 53.33%, #B79A7A 60.45%, #8F7E61 64.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: clamp(37px, calc(70 / 1920 * 100vw), 70px);
+    margin-bottom: clamp(24px, calc(32 / 1920 * 100vw), 32px);
+}
+.towel-luxury-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.towel-luxury-left {
+
+}
+.towel-luxury-left picture {
+    display: flex;
+    height: 100%;
+}
+.towel-luxury-right {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(4px, calc(10 / 1920 * 100vw), 10px);
+}
+.towel-luxury-item {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+.towel-luxury-item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FCF9F999;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.towel-luxury-item.open .towel-luxury-item-overlay {
+    opacity: 0.6;
+}
+.towel-luxury-item picture {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.towel-luxury-item picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.towel-luxury-item-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FCF9F9;
+    width: 65%;
+    left: 8%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition: .3s;
+    transform: translate(0, 10%);
+}
+.towel-luxury-item-card .button {
+    padding: 0 clamp(18px, calc(32 / 1920 * 100vw), 32px);
+    height: clamp(26px, calc(44 / 1920 * 100vw), 44px);
+    font-weight: 500;
+    font-size: clamp(10px, calc(18 / 1920 * 100vw), 18px);
+    line-height: clamp(16px, calc(28 / 1920 * 100vw), 28px);
+}
+.towel-luxury-item-card .button svg {
+    width: clamp(14px, calc(24 / 1920 * 100vw), 24px);
+    height: clamp(14px, calc(24 / 1920 * 100vw), 24px);
+    margin-left: 8px;
+}
+.towel-luxury-item-card .button:before {
+    background: linear-gradient(180deg, #FFFAF2 -44.24%, #F1DDB7 100%), linear-gradient(45.79deg, #FDD1DB 6.18%, #AABBE7 98.93%);
+}
+.towel-luxury-item.open > .towel-luxury-item-card {
+    opacity: 1;
+    transition-delay: .2s;
+    transform: translate(0, 0);
+}
+.towel-luxury-item-card-img {
+
+}
+.towel-luxury-item-card-img img {
+    display: flex;
+}
+.towel-luxury-item-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(6px, calc(38 / 1920 * 100vw), 38px);
+    padding: 0 10px;
+}
+.towel-luxury-item-card-info h4 {
+    font-weight: 500;
+    font-size: clamp(14px, calc(24 / 1920 * 100vw), 24px);
+    line-height: clamp(20px, calc(36 / 1920 * 100vw), 36px);
+    text-transform: uppercase;
+    color: #221D1E;
+}
+.towel-luxury-item-card-info .button {
+
+}
+.towel-luxury-item-card-button {
+    background-image: url("data:image/svg+xml,%3Csvg width='56' height='56' viewBox='0 0 56 56' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='56' height='56' rx='28' fill='%23AD9378'/%3E%3Cmask id='mask0_5059_19219' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='16' y='16' width='24' height='24'%3E%3Crect x='16' y='16' width='24' height='24' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_5059_19219)'%3E%3Cpath d='M27.25 28.75H21.5V27.25H27.25V21.5H28.75V27.25H34.5V28.75H28.75V34.5H27.25V28.75Z' fill='white'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: clamp(26px, calc(56 / 1920 * 100vw), 56px);
+    height: clamp(26px, calc(56 / 1920 * 100vw), 56px);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s;
+    position: absolute;
+    bottom: clamp(10px, calc(40 / 1920 * 100vw), 40px);
+    left: clamp(12px, calc(40 / 1920 * 100vw), 40px);
+    z-index: 1;
+}
+.towel-luxury-item-card-button:hover {
+    opacity: 0.8;
+}
+/*towel-luxury*/
+
+@media screen and (max-width: 1279px) {
+    /*common*/
+    .br-mobile {
+        display: block;
+    }
+    .br-desktop {
+        display: none;
+    }
+    .bold-mobile {
+        font-weight: 500;
+    }
+    .bold-desktop {
+        font-weight: 300;
+    }
+    /*common*/
+
+    /*towel-cooper-anti*/
+    .towel-cooper-anti-percent-item-desk {
+        align-self: center;
+    }
+    .towel-cooper-anti-percent-item a {
+        align-self: center;
+    }
+    /*towel-cooper-anti*/
+
+    /*.towel-cooper-benefits*/
+    .towel-cooper-benefits-info ul {
+        padding: 0 2.6vw 0;
+    }
+    /*.towel-cooper-benefits*/
+
+    /*towel-hydration-benefits*/
+    .towel-hydration-benefits-info ul {
+        padding: 0 2.6vw 0;
+    }
+    /*towel-hydration-benefits*/
+}
+
+@media (max-width: 768px) {
+    /*towel-silk-care*/
+    body section.towel-silk-care {
+        background-color: transparent;
+    }
+    .towel-silk-care-1-info {
+        position: static;
+        grid-area: 2 / 1 / 3 / 2;
+        padding: 15px 18px 22px 6px;
+        width: 100%;
+    }
+    .towel-silk-care-2-info {
+        position: static;
+        grid-area: 2 / 2 / 3 / 3;
+        padding: 15px 6px 22px 18px;
+        width: 100%;
+    }
+    .towel-silk-care-1-pic,
+    .towel-silk-care-2-pic {
+        border-bottom: 1px solid #8F7E61;
+    }
+    .towel-silk-care-1-pic .icon {
+        right: 5vw;
+        background-image: url("data:image/svg+xml,%3Csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='14.5' cy='14.5' r='13.551' stroke='%238F857F' stroke-width='1.89796'/%3E%3Crect x='20.5742' y='8.11234' width='0.591837' height='17.4916' transform='rotate(45 20.5742 8.11234)' fill='%238F857F' stroke='%238F857F' stroke-width='0.591837'/%3E%3Crect x='20.8994' y='20.4808' width='0.591837' height='17.4916' transform='rotate(135 20.8994 20.4808)' fill='%238F857F' stroke='%238F857F' stroke-width='0.591837'/%3E%3C/svg%3E%0A");
+    }
+    .towel-silk-care-2-pic .icon {
+        left: 5vw;
+        background-image: url("data:image/svg+xml,%3Csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='14.5' cy='14.5' r='13.551' stroke='%23B8A284' stroke-width='1.89796'/%3E%3Crect x='23.6272' y='13.9471' width='1.18367' height='18.0835' transform='rotate(90 23.6272 13.9471)' fill='%23B8A284'/%3E%3Crect x='15.1113' y='23.5145' width='1.18367' height='18.0835' transform='rotate(180 15.1113 23.5145)' fill='%23B8A284'/%3E%3C/svg%3E%0A");
+    }
+    .towel-silk-care-wrapper:before {
+        content: '';
+        height: 97%;
+        width: 1px;
+        background-color: #B8A284;
+        position: absolute;
+        top: 3%;
+        bottom: 0;
+        right: 50%;
+        z-index: 1;
+    }
+    /*towel-silk-care*/
+
+    /*towel-cooper-fiber*/
+    section.towel-cooper-fiber-section {
+        margin-bottom: 0;
+    }
+    .towel-cooper-fiber-wrapper {
+        padding-bottom: 26px;
+    }
+    .towel-cooper-fiber-info {
+        position: static;
+    }
+    .towel-cooper-fiber-info-text {
+        gap: 6px;
+        width: 100%;
+        padding-left: 12px;
+    }
+    .towel-cooper-fiber-video {
+        border-width: 1px;
+        top: 10vw;
+        right: 6vw;
+        left: auto;
+        overflow: hidden;
+        width: 50vw;
+        height: 50vw;
+    }
+    /*towel-cooper-fiber*/
+
+    /*.towel-cooper-benefits*/
+    .towel-cooper-benefits-info {
+        background-color: #FAF6F2;
+    }
+    .towel-cooper-benefits-info ul {
+        flex-direction: column;
+    }
+    /*.towel-cooper-benefits*/
+
+    /*towel-cooper-anti*/
+    body section.towel-cooper-anti-section {
+        margin-top: 0;
+        padding-bottom: 38px;
+        background-color: #fbf6f3;
+    }
+    .towel-cooper-anti-percent-item-mob {
+        display: flex;
+    }
+    .towel-cooper-anti-percent {
+        display: none;
+    }
+    .towel-cooper-anti-percent-item_link-text-mob {
+        display: flex;
+        text-align: center;
+    }
+    .towel-cooper-anti-text {
+        display: none;
+    }
+    .towel-cooper-anti-text-mobile {
+        display: inline-block;
+    }
+    /*towel-cooper-anti*/
+
+    /*towel-hydration-fiber*/
+    .towel-hydration-fiber {
+        margin-bottom: -50vw;
+        z-index: -2;
+    }
+    .towel-hydration-fiber-video {
+        border-width: 1px;
+        top: 10vw;
+        left: 2vw;
+    }
+    .towel-hydration-fiber-info {
+        position: static;
+    }
+    .towel-hydration-fiber-info-text {
+        gap: 6px;
+        width: 100%;
+        padding-left: 12px;
+    }
+    .towel-hydration-benefits-info {
+        background-color: #fef9fb;
+    }
+    .towel-hydration-benefits-info ul {
+        flex-direction: column;
+    }
+    /*towel-hydration-fiber*/
+
+    /*towel-choose*/
+    .towel-choose-table {
+        position: relative;
+    }
+    .table-header .table-row {
+        flex-direction: column;
+    }
+    .table-body .table-row {
+        flex-direction: column;
+        border-bottom: none;
+        padding: 7px 0 0;
+    }
+    .table-header {
+        position: sticky;
+        top: 0;
+        background: #fdf9f9;
+        border: none;
+    }
+    .table-body {
+        border: none;
+    }
+    .table-body .table-row .table-row-title {
+        text-align: center;
+        padding: 0 16px 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    /*towel-choose*/
+
+    /*towel-luxury*/
+    .towel-luxury-item-card {
+        display: flex;
+        flex-direction: column;
+        width: 68%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+        transform: translate(10%, 0);
+    }
+    .towel-luxury-item-card-img {
+        /*max-height: 50%;*/
+    }
+    .towel-luxury-item-card-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .towel-luxury-item-card-info {
+        padding: 10px 6px;
+        height: 100%;
+    }
+    .towel-luxury-wrapper {
+        grid-template-columns: 0.8fr 1fr;
+    }
+    /*towel-luxury*/
+}
+
+@media (max-width: 576px) {
+    .towel-luxury-item-card-img {
+        max-height: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
