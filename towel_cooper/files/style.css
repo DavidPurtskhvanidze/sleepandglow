@@ -807,8 +807,44 @@ section.towel-cooper-how {
     background-clip: text;
     text-fill-color: transparent;
 }
-.towel-cooper-how-structure picture {
+.towel-cooper-how-structure-pic {
+    position: relative;
     max-width: 670px;
+    width: 74.5%;
+}
+.towel-cooper-how-structure-pic .pic-title {
+    display: inline-block;
+    font-weight: 400;
+    font-size: clamp(10px, calc(24 / 1920 * 100vw), 24px);
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #869F8C;
+    position: absolute;
+    top: 46%;
+    right: 55%;
+}
+.towel-cooper-how-structure-pic .pic-razer {
+    display: inline-block;
+    text-align: end;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(7px, calc(16 / 1920 * 100vw), 16px);
+    line-height: 120%;
+    color: #CD464D;
+    position: absolute;
+    top: 62%;
+    right: 53%;
+}
+.towel-cooper-how-structure-pic .pic-ions {
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(7px, calc(16 / 1920 * 100vw), 16px);
+    line-height: 12%;
+    color: #C79275;
+    position: absolute;
+    top: 43%;
+    right: 21%;
 }
 .towel-cooper-how-structure picture img {
     width: 100%;
@@ -877,7 +913,7 @@ section.towel-cooper-how {
     }
 
     /*.towel-cooper-how*/
-    .towel-cooper-how-structure picture {
+    .towel-cooper-how-structure-pic {
         max-width: 80%;
     }
     /*.towel-cooper-how*/
@@ -994,8 +1030,20 @@ section.towel-cooper-how {
     .towel-cooper-how-structure h4 {
         padding-right: 0;
     }
-    .towel-cooper-how-structure picture {
-        max-width: 80%;
+    .towel-cooper-how-structure-pic .pic-title {
+        font-size: clamp(10px, calc(24 / 780 * 100vw), 24px);
+        top: 46%;
+        right: 55%;
+    }
+    .towel-cooper-how-structure-pic .pic-razer {
+        font-size: clamp(7px, calc(16 / 780 * 100vw), 16px);
+        top: 62%;
+        right: 53%;
+    }
+    .towel-cooper-how-structure-pic .pic-ions {
+        font-size: clamp(7px, calc(16 / 780 * 100vw), 16px);
+        top: 43%;
+        right: 21%;
     }
     .towel-cooper-how-info h4 {
         text-align: center;
@@ -1012,8 +1060,8 @@ section.towel-cooper-how {
         line-height: 66px;
         width: 57px;
     }
-    .towel-cooper-how-structure picture {
-        max-width: 90%;
+    .towel-cooper-how-structure-pic {
+        max-width: 80%;
     }
     .towel-cooper-how-info {
         max-width: 100%;
