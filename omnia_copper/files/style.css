@@ -1,0 +1,80 @@
+
+
+/*how-it*/
+.towel-cooper-how-structure-pic {
+    position: relative;
+    max-width: 670px;
+    width: 100%;
+}
+.towel-cooper-how-structure-pic .pic-title {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #869F8C;
+    position: absolute;
+    top: 46%;
+    right: 55%;
+}
+.towel-cooper-how-structure-pic .pic-razer {
+    display: inline-block;
+    text-align: end;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #CD464D;
+    position: absolute;
+    top: 62%;
+    right: 53%;
+}
+.towel-cooper-how-structure-pic .pic-ions {
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12%;
+    color: #C79275;
+    position: absolute;
+    top: 43%;
+    right: 21%;
+}
+.towel-cooper-how-structure-pic picture img {
+    width: 100%;
+}
+/*how-it*/
+
+@media screen and (max-width: 1500px) {
+    /*how-it*/
+    .towel-cooper-how-structure-pic {
+        margin-left: -6%;
+    }
+    .how-it .block .left .title {
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*how-it*/
+}
+
+@media (max-width: 768px) {
+    /*how-it*/
+    .towel-cooper-how-structure-pic .pic-title {
+        font-size: clamp(10px, calc(24 / 780 * 100vw), 24px);
+        top: 46%;
+        right: 55%;
+    }
+    .towel-cooper-how-structure-pic .pic-razer {
+        font-size: clamp(7px, calc(16 / 780 * 100vw), 16px);
+        top: 62%;
+        right: 53%;
+    }
+    .towel-cooper-how-structure-pic .pic-ions {
+        font-size: clamp(7px, calc(16 / 780 * 100vw), 16px);
+        top: 43%;
+        right: 21%;
+    }
+    /*how-it*/
+}
